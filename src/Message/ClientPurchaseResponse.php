@@ -53,11 +53,12 @@ class ClientPurchaseResponse extends AbstractResponse implements RedirectRespons
 <html>
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
-    <title>跳转中...</title>
+    <title>Redirect to payment page...</title>
 </head>
-<body  onload="javascript:document.pay_form.submit();">
-    <form id="pay_form" name="pay_form" action="{$action}" method="{$method}">
+<body>
+    <form id="omnipay" name="omnipay" action="{$action}" method="{$method}">
         {$fields}
+        <input type="submit" value="Click here if not redirect">
     </form>
 </body>
 </html>

@@ -23,6 +23,6 @@
         "psr-4": { "Omnipay\\Paydollar\\" : "src/" }
     },
     "require": {
-        "omnipay/common": "~2.0"
+        "omnipay/common": "~2.0 || ~3.0"
     }
 }

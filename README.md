@@ -1,4 +1,4 @@
-# Omnipay: Paydollar
+# Omnipay: Asiapay
 
 **Paydollar driver for the Omnipay PHP payment processing library**
 
@@ -11,7 +11,7 @@ to your `composer.json` file:
 ```json
 {
     "require": {
-        "wjminions/ommipay-paydollar": "~2.0"
+        "zwiebelmettwurst/ommipay-asiapay": "~2.0"
     }
 }
 ```

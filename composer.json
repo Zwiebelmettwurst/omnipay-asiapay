@@ -21,7 +21,7 @@
         }
     ],
     "autoload": {
-        "psr-4": { "Omnipay\\Paydollar\\" : "src/" }
+        "psr-4": { "Omnipay\\Asiapay\\" : "src/" }
     },
     "require": {
         "league/omnipay": "^3"

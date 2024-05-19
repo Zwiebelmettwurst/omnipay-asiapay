@@ -1,12 +1,12 @@
 <?php
 
-namespace Omnipay\Paydollar;
+namespace Omnipay\Asiapay;
 
 use Omnipay\Common\AbstractGateway;
 
 /**
  * Class ClientGateway
- * @package Omnipay\Paydollar
+ * @package Omnipay\Asiapay
  */
 class ClientGateway extends AbstractGateway
 {
@@ -18,17 +18,17 @@ class ClientGateway extends AbstractGateway
      */
     public function getName()
     {
-        return 'Paydollar_Client';
+        return 'Asiapay';
     }
 
 
     public function getDefaultParameters()
     {
         return array (
-            'currCode'   => '344',
+            'currCode'   => '458',
             'mpsMode'    => 'NIL',
             'payType'    => 'N',
-            'lang'       => 'C',
+            'lang'       => 'E',
             'payMethod'  => 'ALL',
             'redirect'   => '5'
         );
@@ -259,17 +259,17 @@ class ClientGateway extends AbstractGateway
 
     public function purchase(array $parameters = array())
     {
-        return $this->createRequest('\Omnipay\Paydollar\Message\ClientPurchaseRequest', $parameters);
+        return $this->createRequest('\Omnipay\Asiapay\Message\ClientPurchaseRequest', $parameters);
     }
 
 
     public function completePurchase(array $parameters = array())
     {
-        return $this->createRequest('\Omnipay\Paydollar\Message\ClientCompletePurchaseRequest', $parameters);
+        return $this->createRequest('\Omnipay\Asiapay\Message\ClientCompletePurchaseRequest', $parameters);
     }
 
     public function refund(array $parameters = array())
     {
-        return $this->createRequest('\Omnipay\Paydollar\Message\ClientRefundRequest', $parameters);
+        return $this->createRequest('\Omnipay\Asiapay\Message\ClientRefundRequest', $parameters);
     }
 }

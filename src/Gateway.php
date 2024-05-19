@@ -8,7 +8,7 @@ use Omnipay\Common\AbstractGateway;
  * Class ClientGateway
  * @package Omnipay\Asiapay
  */
-class ClientGateway extends AbstractGateway
+class Gateway extends AbstractGateway
 {
 
     /**

@@ -1,9 +1,9 @@
 <?php
-namespace Omnipay\Paydollar;
+namespace Omnipay\Asiapay;
 
 /**
  * Class Helper
- * @package Omnipay\Paydollar
+ * @package Omnipay\Asiapay
  */
 class Helper
 {

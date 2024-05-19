@@ -24,6 +24,6 @@
         "psr-4": { "Omnipay\\Asiapay\\" : "src/" }
     },
     "require": {
-        "league/omnipay": "^3"
+        "omnipay/common": "^3.2"
     }
 }

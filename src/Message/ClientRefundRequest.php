@@ -1,13 +1,13 @@
 <?php
 
-namespace Omnipay\Paydollar\Message;
+namespace Omnipay\Asiapay\Message;
 
 use Omnipay\Common\Message\ResponseInterface;
-use Omnipay\Paydollar\Helper;
+use Omnipay\Asiapay\Helper;
 
 /**
  * Class ClientPurchaseRequest
- * @package Omnipay\Paydollar\Message
+ * @package Omnipay\Asiapay\Message
  */
 class ClientRefundRequest extends AbstractClientRequest
 {

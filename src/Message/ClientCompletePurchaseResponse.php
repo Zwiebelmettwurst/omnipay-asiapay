@@ -1,12 +1,12 @@
 <?php
 
-namespace Omnipay\Paydollar\Message;
+namespace Omnipay\Asiapay\Message;
 
 use Omnipay\Common\Message\AbstractResponse;
 
 /**
  * Class ClientCompletePurchaseResponse
- * @package Omnipay\Paydollar\Message
+ * @package Omnipay\Asiapay\Message
  */
 class ClientCompletePurchaseResponse extends AbstractResponse
 {

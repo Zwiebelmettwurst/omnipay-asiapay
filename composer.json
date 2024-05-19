@@ -1,7 +1,7 @@
 {
-    "name": "wjminions/omnipay-paydollar",
+    "name": "zwiebelmettwurst/omnipay-asiapay",
     "type": "library",
-    "description": "Paydollar driver for the Omnipay payment processing library",
+    "description": "Asiapay driver for the Omnipay payment processing library",
     "keywords": [
         "gateway",
         "paydollar gateway service",
@@ -9,20 +9,22 @@
         "paydollar",
         "omnipay",
         "pay",
-        "payment"
+        "payment",
+        "asiapay"
     ],
-    "homepage": "https://github.com/wjminions/omnipay-paydollar",
+    "homepage": "https://github.com/zwiebelmettwurst/asiapay-paydollar",
     "license": "MIT",
     "authors": [
         {
-            "name": "wjminions",
-            "homepage": "https://github.com/wjminions/omnipay-paydollar"
+            "name": "zwiebelmettwurst",
+            "homepage": "https://github.com/zwiebelmettwurst/asiapay-paydollar"
         }
     ],
     "autoload": {
         "psr-4": { "Omnipay\\Paydollar\\" : "src/" }
     },
     "require": {
-        "omnipay/common": "~2.0 || ~3.0"
+        "league/omnipay": "^3",
+        "zwiebelmettwurst/omnipay-asiapay": "^2.0" 
     }
 }
